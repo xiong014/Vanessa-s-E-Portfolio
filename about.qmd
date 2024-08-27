@@ -1,5 +1,0 @@
----
-title: "About"
----
-
-This section is under construction
