@@ -1,6 +1,6 @@
 ---
 title: "Ramon Melser"
-image: media/headshot.png
+image: media/file.png
 about:
   template: trestles
   image-shape: round
