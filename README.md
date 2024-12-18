@@ -1,1 +1,1 @@
-Personal Website: https://ramonmelser.github.io/Personal-Page/
+This page contains all the files you need to set up your own E-Portfolio using Quarto & GitHub. Personalize your page by opening the Quarto (qmd) files in R-Studio and adding your content. Once you are finished adding content, make sure you commit all of your edits to your GitHub repository. Once all edits have been committed, you will be able to view your website by navigating to Settings > Pages. Please note your repository will have to be made public in order for this to work. 

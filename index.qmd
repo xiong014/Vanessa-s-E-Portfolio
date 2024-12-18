@@ -1,6 +1,6 @@
 ---
-title: "Ramon Melser"
-image: media/file.png
+title: "Your E-Portfolio"
+image: images/MGEM_logo.png
 about:
   template: trestles
   image-shape: round
@@ -22,14 +22,4 @@ about:
 
 Hey there,
 
-I'm a PhD Candidate in the Department of Forest Resources Management, Faculty of Forestry at the University of British Columbia. My supervisor is Dr. Nicholas Coops, who runs the Integrated Remote Sensing Studio ([IRSS](https://irsslab.forestry.ubc.ca/)).
-
-My current research is funded by the Canadian Space Agency, and explores the use of multi-source remote sensing modelling frameworks for the estimation of Gross Primary Productivity (GPP) across the Canadian boreal zone. Particularly, my work investigates linkages between core drivers of GPP across land cover types and disturbance histories. Through this work, I aim to provide comprehensive insights into carbon dynamics across the complex Canadian landscape, and offer insight into likely future GPP dynamics under changing climates.
-
-As a graduate student in the Faculty of Forestry, I am also involved in a variety of Teaching Assistant & Support roles. To date, I have served as a Teaching Assistant in 10+ courses, supporting both undergraduate and graduate courses.
-
-When I am not in the lab, you can find me at a local pool, or cooking up a storm for a dinner party. I also enjoy music, and like to go to concerts.
-
-I look forward to adding more content to this website as my academic career progresses, so be sure to check back soon!
-
--Ramon
+This is your E-Portfolio landing page. Be sure to upload a professional headshot of yourself, and provide the appropriate links to your professional social media (linkedin, X/Twitter, etc). This is also a good place to provide a short summary of your education, career and interests. If you are associated with a lab or working with a research supervisor, it may be appropriate to provide some information on that here, along with links to relevant websites. 

@@ -1,0 +1,9 @@
+---
+title: "Content & Deliverables"
+format: html
+editor: visual
+---
+
+# Project Deliverable 1
+
+This is a sample page where you can archive project deliverables. Every header you use will correspond to a tab in the legend - shown on the right-hand side of your screen ("On this page").

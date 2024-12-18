@@ -1,9 +1,9 @@
 project:
   type: website
-  output-dir: D:/Sync/Bookdown/personal_page
+  output-dir: C:/Users/melser/Documents/GitHub/E-Portfolio
 
 website:
-  title: "Ramon Melser: E-Portfolio"
+  title: "Your E-Portfolio"
   navbar:
     left:
       - href: index.qmd
@@ -12,8 +12,8 @@ website:
         text: Resume
       - href: publications.qmd
         text: Publications
-      - href: content_development.qmd
-        text: Content Development
+      - href: content.qmd
+        text: Content & Deliverables
 
 format:
   html:
