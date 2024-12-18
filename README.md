@@ -5,6 +5,7 @@ Once all edits have been committed, you will be able to view your website by nav
 For example, here is the website for this template https://ubc-mgem-fcor599.github.io/E-Portfolio/
 
 There are many options and functionalities to consider when building your E-Portfolio using Quarto. Here are a few helpful resources to get you started:
+
 Quarto HTML Basics: 
 https://quarto.org/docs/output-formats/html-basics.html
 
