@@ -66,6 +66,30 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+
+<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
+
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+
+<script src="site_libs/leaflet-binding-2.2.2/leaflet.js"></script>
+
+<script src="site_libs/leaflet-providers-2.0.0/leaflet-providers_2.0.0.js"></script>
+
+<script src="site_libs/leaflet-providers-plugin-2.2.2/leaflet-providers-plugin.js"></script>
+
 
 
 <link rel="stylesheet" href="styles.css">
@@ -120,7 +144,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#project-deliverable-1" id="toc-project-deliverable-1" class="nav-link active" data-scroll-target="#project-deliverable-1">Project Deliverable 1</a></li>
+  <li><a href="#project-1---capstone-deliverables" id="toc-project-1---capstone-deliverables" class="nav-link active" data-scroll-target="#project-1---capstone-deliverables">Project 1 - Capstone Deliverables</a>
+  <ul class="collapse">
+  <li><a href="#leaflet" id="toc-leaflet" class="nav-link" data-scroll-target="#leaflet">Leaflet</a></li>
+  <li><a href="#code-snippets" id="toc-code-snippets" class="nav-link" data-scroll-target="#code-snippets">Code Snippets</a></li>
+  <li><a href="#external-links" id="toc-external-links" class="nav-link" data-scroll-target="#external-links">External links</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -146,11 +175,45 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="project-deliverable-1" class="level1">
-<h1>Project Deliverable 1</h1>
+<section id="project-1---capstone-deliverables" class="level1">
+<h1>Project 1 - Capstone Deliverables</h1>
 <p>This is a sample page where you can archive project deliverables. Every header you use will correspond to a tab in the legend - shown on the right-hand side of your screen (“On this page”).</p>
+<p>If you’ve produced any GIS layers for your 599 project, this may be a good place to share them as interactive maps through leaflet. Alternatively, you can upload high-res figures showing correlations, box-plots, etc. from your report here, and provide a brief overview of key project results. If you have written some useful functions, you may also want to share those here to demonstrate proficiency in particular coding languages or synergies between notable coding packages.</p>
+<section id="leaflet" class="level2">
+<h2 class="anchored" data-anchor-id="leaflet">Leaflet</h2>
+<p>Sample leaflet - for detailed leaflet instructions, visit the FCOR 599 workshop archive page.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-a0767157d788a76bfd91" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-a0767157d788a76bfd91">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["Esri.WorldImagery",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addScaleBar","args":[{"maxWidth":100,"metric":true,"imperial":true,"updateWhenIdle":true,"position":"bottomleft"}]}],"setView":[[49.2827,-123.1207],11,[]]},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+<section id="code-snippets" class="level2">
+<h2 class="anchored" data-anchor-id="code-snippets">Code Snippets</h2>
+<p>Sample code snippet. Notice that you can provide a toggle to switch between coding languages - this is referred to as a ‘tabset’ in quarto. It is good practice to try and convert your R code to python, and vice-versa to demonstrate coding proficiency. For example, let’s showcase a function for calculating NDVI in R and Python.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset" data-group="language">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">R</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Python</a></li></ul>
+<div class="tab-content" data-group="language">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<pre class="(.r)"><code>calc_ndvi &lt;- function(nir, red){ ndvi &lt;- (nir-red)/(nir+red) return(ndvi) }</code></pre>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<pre class="(.python)"><code>def calc_ndvi(nir, red): 
+  ndvi = (nir.astype(float)-red.astype(float))/(nir.astype(float)+red.astype(float))
+  return(ndvi)</code></pre>
+</div>
+</div>
+</div>
+</section>
+<section id="external-links" class="level2">
+<h2 class="anchored" data-anchor-id="external-links">External links</h2>
+<p>You can also provide a frame linking to external websites. For example, here is a link to a Google Earth Engine application I developed. The full-screen GEE application is available <a href="https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool">here</a> in case you’re interested.</p>
+<p>(To use the GEE tool, navigate to any city you’d like, hit apply filters, and click anywhere on the map to retrieve a time-series of Landsat surface temperature observations for that point. Areas where the maximum temp exceeded 35 degrees Celsius in your date-range are highlighted in red.)</p>
+<iframe width="900" height="700" src="https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool" title="Webpage example"></iframe>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

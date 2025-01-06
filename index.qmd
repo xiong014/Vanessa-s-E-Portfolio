@@ -3,7 +3,6 @@ title: "Your E-Portfolio"
 image: images/MGEM_logo.png
 about:
   template: trestles
-  image-shape: round
   image-width: 20em
   links: 
     - icon: linkedin
