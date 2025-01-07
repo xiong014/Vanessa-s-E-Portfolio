@@ -12,9 +12,9 @@ If you've produced any GIS layers for your 599 project, this may be a good place
 
 ## Leaflet
 
-Sample leaflet - for detailed leaflet instructions, visit the FCOR 599 workshop archive page.
+Sample leaflet - for detailed leaflet instructions, visit the FCOR 599 workshop archive page [here](https://ubc-mgem-fcor599.github.io/FCOR-599-Workshops/Interactive_Maps/leaflet.html).
 
-``` {r leaflet, include = FALSE}
+```{r leaflet, include = FALSE}
 library(dplyr); library(leaflet)
 
 m <- leaflet() %>%
@@ -27,6 +27,7 @@ m <- leaflet() %>%
 ```{r map, echo=FALSE}
 m
 ```
+
 ## Code Snippets
 
 Sample code snippet. Notice that you can provide a toggle to switch between coding languages - this is referred to as a 'tabset' in quarto. It is good practice to try and convert your R code to python, and vice-versa to demonstrate coding proficiency. For example, let's showcase a function for calculating NDVI in R and Python.
