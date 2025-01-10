@@ -24,3 +24,5 @@ Hey there people,
 This is your E-Portfolio landing page. Be sure to upload a professional headshot of yourself, and provide the appropriate links to your professional social media (linkedin, X/Twitter, etc). This is also a good place to provide a short summary of your education, career and interests. If you are associated with a lab or working with a research supervisor, it may be appropriate to provide some information on that here, along with links to relevant websites.
 
 Write something about myself, very exciting.
+
+Vanessa is a master's student in the Master of Geomatics for Environmental Management (MGEM) program at UBC. She specializes in statistics, remote sensing, and GIS, with a focus on climate change, sustainable land management, and forest carbon dynamics. Her capstone project involves comparing aboveground biomass (AGB) estimates using machine learning models with Landsat and Sentinel-2 data in collaboration with Ostrom Climate Company on a restoration project in Ghana. Vanessa's interests include GHG mitigation, extreme weather events, and the innovative use of remote sensing in environmental management.

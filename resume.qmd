@@ -5,6 +5,8 @@ title: "Vanessa's Resume"
 # Education 2
 
 -   List your education here.
+Environmental Science, Bachelor of Science  University of British Columbia, Vancouver, Canada
+MGEM UBC 
 
 # Publications
 
@@ -14,8 +16,10 @@ title: "Vanessa's Resume"
 
 *Reports:*
 
--   List any non-peer reviewed materials you'd like to share here.
-
+-   List any non-peer reviewed materials you'd like to share 
+- Predicting Dangerous Biotoxin Levels along the Coast of British Columbia : Achieving Food Sovereignty and Safety for Coastal Indigenous Communities
+Kwok, Jasmine; Zhou, Shirley; Xiong, Vanessa; Wang, Wenwen
+https://open.library.ubc.ca/soa/cIRcle/collections/undergraduateresearch/52966/items/1.0442341?o=0 
 # Conferences & Talks
 
 *Invited Talks*
